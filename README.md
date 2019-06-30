@@ -16,6 +16,10 @@
 		<td>index_find_multi_char</td>
 		<td>Procura uma determinada frase em uma string da direita para esquerda ou vice-versa<br/>e retorna uma lista com os indices das posições desta frase.</td>
 	</tr>
+	<tr>
+		<td>replace_</td>
+		<td>Procura uma determinada palavra em uma string da direita para esquerda ou vice-versa<br/>e apaga esta palavra desta string.</td>
+	</tr>
 </table></ul>
 <br/>
 
