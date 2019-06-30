@@ -12,6 +12,10 @@
 		<td>index_find</td>
 		<td>Procura uma determinada letra em uma string da direita para esquerda ou vice-versa<br/>e retorna o indice da posição desta letra.</td>
 	</tr>
+	<tr>
+		<td>index_find_multi_char</td>
+		<td>Procura uma determinada frase em uma string da direita para esquerda ou vice-versa<br/>e retorna uma lista com os indices das posições desta frase.</td>
+	</tr>
 </table></ul>
 <br/>
 
