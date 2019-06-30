@@ -62,6 +62,3 @@ class STR(str):
 		else:
 			ERROR("STR.index_find {parametro 'start' invalido}")
 		return result
-
-a = STR("a b c dv fd gdg  fd dc e f")
-print(a.index_find_multi_char('dc', 'left'))
