@@ -8,14 +8,18 @@
 		<th>Nome da função</th>
 		<th>descrição</th>
 	</tr>
-</table>
+	<tr>
+		<td>index_find</td>
+		<td>Procura uma determinada letra em uma string da direita para esquerda ou vice-versa<br/>e retorna o indice da posição desta letra.</td>
+	</tr>
+</table></ul>
 <br/>
 
 
 <br/>
 <h3>Criação de alguns modos complementares</h3>
 
-<ul><li type="point"><b>ERROR</b> modulo responsavel por sinalizar 
+<ul><li type="point"><b>ERROR</b> modulo responsavel por sinalizar</li>
 <table style="width:100%">
 	<tr>
 		<th>Nome do modulo</th>
@@ -25,4 +29,4 @@
 		<td>ERROR</td>
 		<td>Sinaliza algum error nestas novas funções.</td>
 	</tr>
-</table>
+</table></ul>
