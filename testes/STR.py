@@ -44,3 +44,20 @@ class STR(str):
 		else:
 			ERROR("STR.index_find_multi_char {parametro 'start' invalido}")
 		return list_tmp
+
+	def replace_(self, quantidade=1, string="", start="left"):
+		result = STR(self)
+		result_tmp = ""
+		if string not in self:
+			return
+		for q in range(quantidade):
+			if string not in result:break
+			if start == "left":
+				i = result.index_find(string, start)
+				if i != None:
+					result_tmp = ""
+					for char_position in range(len(result)):
+						if char_position != i:
+							result_tmp += result[char_position]
+					result = STR(result_tmp)
+		return result
